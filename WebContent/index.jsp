@@ -12,8 +12,9 @@
 				<h1>Movies Application</h1>
 			</div>
 <%@ include file="includes/navigation.jsp" %>
-			<div class="container">
-				<p>Hello, Welcome to my Movie website, where you can see a list of movies that I have watched, please click the link above to view all of them!</p>
+			<div class="main">
+				<p><br><br>Hello, Welcome to my Movie website! <br><br>
+				I Have made a list of movies that I have watched, please <a href="ViewAll">take a look!</a><br><br></p>
 			</div>
 <%@ include file="includes/footer.jsp" %>
 		</div>

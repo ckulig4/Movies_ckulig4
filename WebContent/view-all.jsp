@@ -13,7 +13,7 @@
 				<h1>Movie List</h1>
 			</div>
 <%@ include file="includes/navigation.jsp" %>
-			<div class="container">
+			<div class="main">
 				<c:choose>
 					<c:when test="${empty movies}">
 						<p>Sorry, there isn't any movies on the list.</p>

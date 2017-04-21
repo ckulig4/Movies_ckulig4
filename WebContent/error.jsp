@@ -12,8 +12,8 @@
 				<h1>Error</h1>
 			</div>
 <%@ include file="includes/navigation.jsp" %>
-			<div class="container">
-				<p>I'm sorry Dave, but I'm afraid I can't let you do that...</p><br>
+			<div class="main">
+				<p>I'm sorry Dave, but I'm afraid I can't let you do that...</p>
 				<p>This application has encountered an error has has been forced to shutdown.</p>				
 				<c:choose>
 					<c:when test="${ message != null}">
@@ -26,6 +26,7 @@
 						<p>Message: ${pageContext.exception.message}</p>	
 					</c:otherwise>
 				</c:choose>
+				<img src="./assets/images/iterror.jpg" alt="it clown face" height="393" width="700">				
 			</div>
 <%@ include file="includes/footer.jsp" %>
 		</div>
