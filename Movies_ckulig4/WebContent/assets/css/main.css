@@ -1,0 +1,44 @@
+/*!
+ * JavaWebProgramming v1
+ *
+ * Copyright 2017 Cole Kulig
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+ .container {
+ width:768px;
+ background-color: white;
+ padding-bottom: 10px;
+ }
+ 
+ .main {
+ 
+ margin: 0 20px;
+ font-family: "Comic Sans MS", cursive, sans-serif;
+ 
+ }
+ 
+ h1 {
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 56px; 
+border-style: solid;
+border-bottom: thick dotted black;
+ }
+ 
+ body {
+ 
+ background-color: rgb(114,88,131);
+
+ }
+ 
+ .hero-unit {
+ 
+ background-color: lightYellow;
+ }
+ 
+ img {
+ 
+ padding: 10px;
+ 
+ }
