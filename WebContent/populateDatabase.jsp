@@ -9,7 +9,7 @@
 	<body>
 		<div class="container">
 			<div class="hero-unit">
-				<h1>Populate Database</h1>
+				<h1>Populate Movie List</h1>
 			</div>
 <%@ include file="includes/navigation.jsp" %>
 			<div class="main">

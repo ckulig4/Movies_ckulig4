@@ -17,7 +17,7 @@
 				<p>This application has encountered an error has has been forced to shutdown.</p>				
 				<c:choose>
 					<c:when test="${ message != null}">
-					<p>${message}</p>
+					<p><strong>***** ${message} *****</strong></p>
 					</c:when>				
 					<c:otherwise>
 						<p>To continue, click the Back button.</p>

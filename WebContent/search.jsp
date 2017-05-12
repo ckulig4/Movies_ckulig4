@@ -9,7 +9,7 @@
 	<body>
 		<div class="container">
 			<div class="hero-unit">
-				<h1>Search</h1>
+				<h1>Search for a Movie</h1>
 			</div>
 <%@ include file="includes/navigation.jsp" %>
 			<div class="main">
