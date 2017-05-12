@@ -14,7 +14,7 @@
 <%@ include file="includes/navigation.jsp" %>
 			<div class="main">
 				<p><br><br>Hello, Welcome to my Movie website! <br><br>
-				I Have made a list of movies that I have watched, please <a href="ViewAll">take a look!</a><br><br></p>
+				I have made a list of movies that I have watched, please <a href="ViewAll">take a look!</a><br><br></p>
 			</div>
 <%@ include file="includes/footer.jsp" %>
 		</div>

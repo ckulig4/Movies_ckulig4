@@ -17,6 +17,8 @@
 				<c:choose>
 					<c:when test="${empty movies}">
 						<p>Sorry, there isn't any movies on the list.</p>
+						<p>Try to <a href="populateDatabase.jsp">populate</a> the list of movies first.</p>
+						
 					</c:when>
 					<c:otherwise>
 						<c:forEach var="movie" items="${movies}">
