@@ -69,6 +69,9 @@ public class ViewAllController extends HttpServlet {
 		case "title":
 			Collections.sort(movies, (movie1, movie2) -> movie1.getTitle().compareTo(movie2.getTitle()));
 			break;
+		case "director":
+			Collections.sort(movies, (movie1, movie2) -> movie1.getDirector().compareTo(movie2.getDirector()));
+			break;	
 		case "lengthInMinutes":
 			Collections.sort(movies, (movie1, movie2) -> movie1.getLengthInMinutes().compareTo(movie2.getLengthInMinutes()));
 			break;

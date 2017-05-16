@@ -16,8 +16,15 @@
 				<form action="Search" method="post">
 					<label for="title"><strong>Search by title: </strong></label>
 					<input name="title">
-					<input type="submit" value="Search!">
+					<input type="hidden" name="searchType" value="title">  
+					<input type="submit" value="Search By Title!">
 				</form>
+				<form action="Search" method="post">
+					<label for="director"><strong>Search by director: </strong></label>
+					<input name="director">
+					<input type="hidden" name="searchType" value="director">  
+					<input type="submit" value="Search By Director!">
+				</form>				
 			</div>
 <%@ include file="includes/footer.jsp" %>
 		</div>

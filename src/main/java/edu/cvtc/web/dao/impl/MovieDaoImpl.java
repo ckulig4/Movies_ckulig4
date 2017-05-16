@@ -55,7 +55,8 @@ public class MovieDaoImpl implements MovieDao {
 						+ "\"" + movie.getDirector() + "\", "
 						+ movie.getLengthInMinutes() + ");"; 
 				
-				System.out.println(insertValues);
+				//Left in for notes, this is how to see all data added to the database from the external sheet.
+				//System.out.println(insertValues);
 				
 				statement.executeUpdate(insertValues);
 			}

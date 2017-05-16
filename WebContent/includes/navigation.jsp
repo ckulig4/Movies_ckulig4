@@ -5,6 +5,7 @@
 					<ul class="dropdown-menu">
 						<li><a href="ViewAll">Unsorted</a></li>
 						<li><a href="ViewAll?sortType=title">Sorted by Title</a></li>
+						<li><a href="ViewAll?sortType=director">Sorted by Director</a></li>
 						<li><a href="ViewAll?sortType=lengthInMinutes">Sorted by Length In Minutes</a></li>																
 					</ul>
 				</li>
